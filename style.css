@@ -1,0 +1,377 @@
+html{
+    
+    height:100%;
+}
+
+body{
+	
+	font-family:serif;
+	
+	margin: auto;
+	padding: auto;
+    height: 100%;
+}
+
+.body-home {
+    
+	padding-top: 70px;
+	background-image: url('images/home2.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-meals{
+	
+	background-image: url('images/home1.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/************ Header *************/
+.header{
+	
+	background-color: dimgray;
+	
+	width:100%;
+	height: 60px;
+	top:0;
+	
+	
+	position: fixed;
+	overflow: hidden;
+	
+	text-align: center;
+}
+
+.header i{
+	
+	float:left;
+	padding: 17px 0px 0px 17px;
+	color: white;
+}
+
+.header h1{
+	
+    color: black;
+    text-align: center;
+    
+}
+
+
+
+/************ Home Page *************/
+
+#home-logo-img{
+	
+	width: 50px;
+	display:block;
+	margin:auto;
+	padding: 25px 25px 25px 25px;
+}
+#home-logo-text{
+
+	width:auto;
+	display: block;
+	margin:auto;
+	padding: 25px;
+}
+/************ Menu *************/
+
+.home-menu-item{
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	color: cornsilk;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	border: 10px solid cornsilk ;
+	
+	
+	display: block;
+	margin:auto;
+	margin-bottom: 35px;
+	width: 80%;
+	
+	
+
+	
+}
+
+/************ Meals Page *************/
+#meals{
+	padding-top: 50px;
+	
+	
+	
+}
+/************ MEALS PAGE Menu *************/
+.meals-list a {
+	text-decoration: none;
+	
+	
+	
+}
+.meals-list-item{
+    
+	
+	border:20px solid cornsilk;
+	margin: 50px;
+}
+
+.meals-list-item h1 {
+	font-weight: bold;
+	font-size: 25px;
+	color: cornsilk;
+	padding-left: 150px;
+	
+}
+
+.meals-list-item i{
+	
+	float:right;
+	color: cornsilk;
+	padding-right: 50px;
+}
+
+.meals-list-item p {
+	font-style: oblique;
+	font-size: 15px;
+	color: cornsilk;
+	margin-top: -10px;
+	padding-left: 150px;
+	
+}
+
+
+
+/************ Menu Page *************/
+#menu{
+	padding-top: 50px;
+}
+/************ Meals details *************/
+.menu-details img {
+	
+	width:100%;
+	overflow: hidden;
+	
+}
+
+.menu-details h1 {
+	
+	font-size: 25px;
+	text-align: center;
+	border: 10px solid gray;
+	margin: 15px;
+	padding: 5px;
+	
+	
+}
+
+
+.menu-detail-info {
+	
+	margin-left: 25px;
+	margin-right: 25px;
+	
+	
+}
+
+.menu-detail-extras h2 {
+	
+	padding: 20px;
+	
+}
+
+
+.menu-detail-info p{
+	
+	font-size: 13px;
+	display: inline-block;
+}
+
+.menu-detail-extras label{
+	
+	line-height:25px;
+	margin-left: 10px;
+	
+	
+}
+
+
+.menu-detail-extras ol{
+	
+	padding-left: 28px;
+}
+
+.menu-detail-extras form{
+	width: 100%;
+	margin: auto;
+}
+
+.menu-detail-extras textarea{
+	width: 95.9%;
+	margin: auto;
+    padding: 20px;
+    
+}
+
+.menu-detail-extras button{
+	width: 100%;
+    padding: 12px;
+	margin: auto;
+    
+
+    background-color: dimgray;
+}
+
+.menu-detail-extras button:hover{
+    color: white;
+    text-transform: uppercase;
+    
+	
+}
+
+
+/************ Responsive LAYOUT *************/
+
+@media only screen and (min-width: 600px){
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+
+    #menu{
+        width: 80%;
+        margin: auto;
+	}
+
+	.menu-detail-extras form{
+		width: 100%;
+		margin: auto;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals {
+        width: 60%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 60%;
+        margin: auto;
+	}
+	
+	.menu-detail-extras form{
+		width: 100%;
+		margin: auto;
+	}
+
+}
+
+
+@media only screen and (min-width: 1500px) {
+    #meals {
+        width: 40%;
+        margin: auto;
+    }
+
+    #menu{
+        width: 40%;
+        margin: auto;
+	}
+	.menu-detail-extras form{
+		width: 100%;
+		margin: auto;
+	}
+
+}
+
+
+@media only screen and (min-width: 720px) {
+    .body-home{
+        background-image: url('images/home20.jpg') ;
+    }
+
+    .body-meals{
+        background-image: url('images/home3.jpg') ;
+    }
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
